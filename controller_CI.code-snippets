@@ -1,0 +1,19 @@
+{
+	"emmet controller CI": {
+		"prefix": "Controller_CI_Snippet",
+		"body": [
+			"<?php",
+			"defined('BASEPATH') OR exit('No direct script access allowed');",
+			"// controller",
+			"class $TM_FILENAME_BASE extends CI_Controller {",
+			"    // method (default)",
+			"    public function ${1:index}() {",
+			"        ${2:#Script}",
+			"    }",
+			"}",
+			"",
+			"/* End of file $TM_FILENAME_BASE.php */"
+		],
+		"description": "emmet controller CI"
+	}
+}
