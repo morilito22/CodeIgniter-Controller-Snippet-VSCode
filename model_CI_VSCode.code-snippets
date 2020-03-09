@@ -1,0 +1,19 @@
+{
+	"emmet model CI": {
+		"prefix": "Model_CI_Snippet",
+		"body": [
+			"<?php",
+			"defined('BASEPATH') OR exit('No direct script access allowed');",
+			"// models",
+			"class $TM_FILENAME_BASE extends CI_Model {",
+			"    // method (default)",
+			"    public function ${1:index}() {",
+			"        ${2:#Script}",
+			"    }",
+			"}",
+			"",
+			"/* End of file $TM_FILENAME_BASE.php */"
+		],
+		"description": "emmet model CI"
+	}
+}
