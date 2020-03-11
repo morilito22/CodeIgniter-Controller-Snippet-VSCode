@@ -1,0 +1,10 @@
+{
+	"load-model": {
+		"scope": "php",
+		"prefix": "load-Model",
+		"body": [
+			"\\$this->load->model('${1:model_name}');$0",
+		],
+		"description": "load->model"
+	}
+}
